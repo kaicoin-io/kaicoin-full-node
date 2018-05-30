@@ -1,9 +1,9 @@
-KaiCoin
+Kaicoin
 ==========
 
-[KaiCoin](http://kaicoin.io/) is an open source platform for private blockchains, which offers a rich set of features including extensive configurability, rapid deployment, permissions management, native assets and data streams. Although it is designed to enable private blockchains, KaiCoin provides maximal compatibility with the bitcoin ecosystem, including the peer-to-peer protocol, transaction/block formats and [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) APIs/runtime parameters.
+[Kaicoin](http://kaicoin.io/) is an open source platform for private blockchains, which offers a rich set of features including extensive configurability, rapid deployment, permissions management, native assets and data streams. Although it is designed to enable private blockchains, KaiCoin provides maximal compatibility with the bitcoin ecosystem, including the peer-to-peer protocol, transaction/block formats and [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/) APIs/runtime parameters.
 
-KaiCoin is licensed under the GPLv3 open source license. We also offer commercial licenses for those wishing to integrate KaiCoin into a proprietary software solution.
+Kaicoin is licensed under the GPLv3 open source license. We also offer commercial licenses for those wishing to integrate Kaicoin into a proprietary software solution.
 
     Copyright (c) 2014-2017 Coin Sciences Ltd
     License: GNU General Public License version 3, see COPYING
@@ -16,7 +16,7 @@ System requirements
 
 These compilation instructions have been tested on Ubuntu 14.04 x64 only.
 
-C++ compilers are memory-hungry, so it is recommended to have at least 1 GB of memory available when compiling KaiCoin. With less memory, compilation may take much longer due to swapfile thrashing.
+C++ compilers are memory-hungry, so it is recommended to have at least 1 GB of memory available when compiling Kaicoin. With less memory, compilation may take much longer due to swapfile thrashing.
 
 
 Linux Build Notes (on Ubuntu 14.04 x64)
@@ -64,7 +64,7 @@ Install dependencies
     sudo apt-get update
     sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
-Compile KaiCoin for Windows (64-bit)
+Compile Kaicoin for Windows (64-bit)
 ------------------------------
 
     ./autogen.sh
@@ -77,7 +77,7 @@ Compile KaiCoin for Windows (64-bit)
 Notes
 -----
 
-* This will build `kaicoind.exe`, `kaicoin-cli.exe` and `multitchain-util.exe` in the `src` directory.
+* This will build `kaicoind.exe`, `kaicoin-cli.exe` and `kaicoin-util.exe` in the `src` directory.
 
 
 Mac Build Notes (on MacOS Sierra)
@@ -113,7 +113,7 @@ The default brew cookbook for berkeley-db and boost builds static libraries, but
         In 'def configure_args' change 'shared' to 'no-shared'
     brew install openssl --force
 
-Compile KaiCoin for Mac (64-bit)
+Compile Kaicoin for Mac (64-bit)
 --------------------------
 
     export LDFLAGS=-L/usr/local/opt/openssl/lib
