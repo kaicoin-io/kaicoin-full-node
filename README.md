@@ -136,3 +136,8 @@ Notes
 
 * This will build `kaicoind`, `kaicoin-cli` and `kaicoin-util` in the `src` directory.
 
+JSON-RPC API
+-----
+
+Kaicoin API is 100% compatible that of multichain, please refer to this.
+https://www.multichain.com/developers/json-rpc-api/
